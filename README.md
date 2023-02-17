@@ -1,3 +1,6 @@
+#### Updated: Feb/17/23
+```Python: 3.11.0```
+
 # LoginWithGoogle  
 
 This is an example of how to authenticate a USER using "Google".  
@@ -17,6 +20,11 @@ git clone https://github.com/RicardoTurco/LoginWithGoogle.git && cd LoginWithGoo
 Create and activate one "virtualenv"
 (using any valid form) 
 
+This next 3 steps are OPTIONAL, but HIGH recommended !!!
+1) python -m pip install --upgrade pip
+2) pip install -U setuptools
+3) pip install wheel
+
 pip install -r requirements.txt
 
 REMEMBER: To get "values" of variables GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET,  
@@ -26,7 +34,8 @@ export GOOGLE_CLIENT_ID="aaa-bbb-ccc-apps.googleusercontent.com"
 
 export GOOGLE_CLIENT_SECRET="AaaBbbCccDdd"
 
-python run.py
+python app.py
+(maybe you need to run twice times, until up the flask server ...)
 ```
   
 ## WorkFlow
